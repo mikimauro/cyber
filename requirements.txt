@@ -1,0 +1,19 @@
+# SafeChat AI Service - Requirements
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# Machine Learning
+torch==2.1.1
+transformers==4.35.2
+numpy==1.24.3
+scipy==1.11.4
+
+# Security
+cryptography==41.0.7
+
+# Utilities
+python-multipart==0.0.6
+
+# Monitoring (opzionale)
+prometheus-client==0.19.0
